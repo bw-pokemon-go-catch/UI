@@ -169,8 +169,50 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
   height: auto;
+}
+header .navContainer {
+  width: 100%;
+  background-color: #FF0000;
+  border-bottom: 1px solid #101001;
+}
+header .navText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .navLinks {
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header a {
+  text-decoration: none;
+  color: #FFFFFA;
+  margin: 0 1%;
+  padding: 0 1%;
+}
+header .navLogo {
+  width: 3.5%;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+.home-content-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.home-content-container .home-content-text {
+  width: 50%;
+}
+.home-content-container .home-content-img {
+  width: 50%;
 }
