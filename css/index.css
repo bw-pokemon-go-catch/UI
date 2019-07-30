@@ -325,6 +325,7 @@ footer .navLogo {
 .product-content-container {
   margin: 1% 0 1% 0;
   border-bottom: 1px solid #FF0000;
+  width: 100%;
 }
 .product-content-container .boxes {
   display: flex;
@@ -333,12 +334,23 @@ footer .navLogo {
   align-items: center;
   background-color: #FFFFF0;
 }
+@media screen and (max-width: 500px) {
+  .product-content-container .boxes {
+    flex-direction: column;
+  }
+}
 .product-content-container .boxes .box-container {
   display: flex;
   width: 30%;
   height: auto;
   flex-direction: column;
   margin: 1% 0 1% 0;
+}
+@media screen and (max-width: 500px) {
+  .product-content-container .boxes .box-container {
+    width: 100%;
+    align-items: center;
+  }
 }
 .product-content-container .boxes .box-container .box-container-img {
   height: 50%;
