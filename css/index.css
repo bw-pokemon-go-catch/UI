@@ -412,9 +412,18 @@ footer .navLogo {
   width: 100%;
   background-image: url("../img/blueskymail.png");
   height: 72rem;
-  background-position: top;
   background-repeat: no-repeat;
-  position: relative;
+  background-position: center;
+}
+@media screen and (max-width: 800px) {
+  .contact-form .contact-form-container {
+    background-size: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-form .contact-form-container {
+    background-size: initial;
+  }
 }
 .contact-form .contact-form-container .contact-form-text {
   width: 100%;
