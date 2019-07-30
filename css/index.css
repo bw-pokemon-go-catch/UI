@@ -136,7 +136,7 @@ html,
 body {
   font-family: 'Montserrat', sans-serif;
   color: #101001;
-  background-color: #FFFFFA;
+  background-color: #FFFFF5;
 }
 h2,
 h3,
@@ -203,16 +203,89 @@ header .navLogo {
   padding: 0;
   align-self: center;
 }
+footer .navContainer {
+  width: 100%;
+  background-color: #FF0000;
+  border: 1px solid #101001;
+}
+footer .navLinks {
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+}
+footer a {
+  text-decoration: none;
+  color: #FFFFFA;
+  margin: 0 1%;
+  padding: 0 1%;
+}
+footer .navLogo {
+  width: 3.5%;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
 .home-content-container {
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-top: 1%;
+  margin: 1% 0 1% 0;
+  border-bottom: 1px solid #FF0000;
 }
 .home-content-container .home-content-text {
   width: 50%;
 }
 .home-content-container .home-content-img {
   width: 50%;
+}
+.product-content-container {
+  margin: 1% 0 1% 0;
+  border-bottom: 1px solid #FF0000;
+}
+.product-content-container .boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFFFF0;
+}
+.product-content-container .boxes .box-container {
+  display: flex;
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+  margin: 1% 0 1% 0;
+}
+.product-content-container .boxes .box-container .box-container-img {
+  height: 50%;
+}
+.product-content-container .boxes .box-container .box-container-text {
+  height: 50%;
+}
+.about-content-container {
+  margin: 1% 0 1% 0;
+  border-bottom: 1px solid #FF0000;
+}
+.about-content-container .boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFFFF0;
+}
+.about-content-container .boxes .box-container {
+  display: flex;
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+  margin: 1% 0 1% 0;
+}
+.about-content-container .boxes .box-container .box-container-img {
+  height: 50%;
+}
+.about-content-container .boxes .box-container .box-container-text {
+  height: 50%;
 }
