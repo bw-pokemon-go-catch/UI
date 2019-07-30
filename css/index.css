@@ -1,0 +1,326 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #101001;
+  background-color: #FFFFF5;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Saira Stencil One', cursive;
+  color: #101001;
+}
+h1 {
+  font-family: 'Saira Stencil One', cursive;
+  color: #FFFFFA;
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p,
+a {
+  line-height: 1.4;
+  font-size: 1.6rem;
+}
+b {
+  font-weight: bold;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+header .navContainer {
+  width: 100%;
+  background-color: #FF0000;
+  border-bottom: 1px solid #101001;
+}
+header .navText {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+header .navLinks {
+  width: 100%;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header a {
+  text-decoration: none;
+  color: #FFFFFA;
+  margin: 0 1%;
+  padding: 0 1%;
+}
+header .navLogo {
+  width: 3.5%;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+footer .navContainer {
+  width: 100%;
+  background-color: #FF0000;
+  border: 1px solid #101001;
+}
+footer .navLinks {
+  width: 100%;
+}
+footer nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #FFFFFA;
+  margin: 0 1%;
+  padding: 0 1%;
+}
+footer .navLogo {
+  width: 3.5%;
+  margin: 0;
+  padding: 0;
+}
+.home-content-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 1% 0 1% 0;
+  border-bottom: 1px solid #FF0000;
+}
+.home-content-container .home-content-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-content-container .home-content-text .btn {
+  margin-top: 1%;
+  height: 10%;
+}
+.home-content-container .home-content-text .btn button {
+  line-height: 1.4;
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #101001;
+  background-color: #FF0000;
+  color: #FFFFFA;
+  border-radius: 10%;
+}
+.home-content-container .home-content-img {
+  width: 50%;
+}
+.product-content-container {
+  margin: 1% 0 1% 0;
+  border-bottom: 1px solid #FF0000;
+}
+.product-content-container .boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFFFF0;
+}
+.product-content-container .boxes .box-container {
+  display: flex;
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+  margin: 1% 0 1% 0;
+}
+.product-content-container .boxes .box-container .box-container-img {
+  height: 50%;
+}
+.product-content-container .boxes .box-container .box-container-text {
+  height: 50%;
+}
+.about-content-container {
+  margin: 1% 0 1% 0;
+  border-bottom: 1px solid #FF0000;
+}
+.about-content-container .boxes {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFFFF0;
+}
+.about-content-container .boxes .box-container {
+  display: flex;
+  width: 30%;
+  height: auto;
+  flex-direction: column;
+  margin: 1% 0 1% 0;
+}
+.about-content-container .boxes .box-container .box-container-img {
+  height: 50%;
+}
+.about-content-container .boxes .box-container .box-container-text {
+  height: 50%;
+}
+.contact-form {
+  height: 100%;
+}
+.contact-form .contact-form-container {
+  width: 100%;
+  background-image: url("../img/blueskymail.png");
+  height: 72rem;
+  background-position: top;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.contact-form .contact-form-container .contact-form-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
