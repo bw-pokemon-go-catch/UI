@@ -3,21 +3,46 @@ header {
         width: 100%;
         background-color: @nav-bg;
         border-bottom: 1px solid @nav-border;
+
+        @media @mobile{
+            background-color: @main-bg;
+        }
     }
 
     .navText{
         width: 100%;
         display: flex;
         justify-content: center;
+
+        @media @mobile{
+            display: none;
+        }
     }
 
     .navLinks{
         width: 100%;
+
+        @media @mobile{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .navLogoMobile{
+            display: none;
+
+            @media @mobile{
+                display: inline-block;
+            }
+        }
     }
 
     nav{
         display: flex;
         justify-content: center;
+
+        @media @mobile{
+            flex-direction: column;
+        }
     }
 
     a{
@@ -25,6 +50,15 @@ header {
         color: @nav-font;
         margin: 0 1%;
         padding: 0 1%;
+
+        @media @mobile{
+            display: flex;
+            justify-content: center;
+            font-size: 3rem;
+            background-color: @nav-bg;
+            border-bottom: 1px solid @nav-border;
+            margin-bottom: 1%;
+        }
     }
 
     .navLogo{

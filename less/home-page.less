@@ -6,11 +6,19 @@
     margin: 1% 0 1% 0;
     border-bottom: 1px solid @main-border;
 
+    @media @tablet{
+        flex-direction: column;
+    }
+
     .home-content-text{
         width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @media @mobile{
+            width: 100%;
+        }
 
         .btn{
             margin-top: 1%;
@@ -31,6 +39,14 @@
 
     .home-content-img{
         width: 50%;
+
+        @media @tablet{
+            width: 75%;
+        }
+
+        @media @mobile{
+            display: none;
+        }
     }
 }
 

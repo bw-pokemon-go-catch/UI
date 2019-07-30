@@ -181,23 +181,62 @@ header .navContainer {
   background-color: #FF0000;
   border-bottom: 1px solid #101001;
 }
+@media screen and (max-width: 500px) {
+  header .navContainer {
+    background-color: #FFFFF5;
+  }
+}
 header .navText {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+@media screen and (max-width: 500px) {
+  header .navText {
+    display: none;
+  }
+}
 header .navLinks {
   width: 100%;
+}
+@media screen and (max-width: 500px) {
+  header .navLinks {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+header .navLinks .navLogoMobile {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  header .navLinks .navLogoMobile {
+    display: inline-block;
+  }
 }
 header nav {
   display: flex;
   justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+  }
 }
 header a {
   text-decoration: none;
   color: #FFFFFA;
   margin: 0 1%;
   padding: 0 1%;
+}
+@media screen and (max-width: 500px) {
+  header a {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #FF0000;
+    border-bottom: 1px solid #101001;
+    margin-bottom: 1%;
+  }
 }
 header .navLogo {
   width: 3.5%;
@@ -237,11 +276,21 @@ footer .navLogo {
   margin: 1% 0 1% 0;
   border-bottom: 1px solid #FF0000;
 }
+@media screen and (max-width: 800px) {
+  .home-content-container {
+    flex-direction: column;
+  }
+}
 .home-content-container .home-content-text {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (max-width: 500px) {
+  .home-content-container .home-content-text {
+    width: 100%;
+  }
 }
 .home-content-container .home-content-text .btn {
   margin-top: 1%;
@@ -262,6 +311,16 @@ footer .navLogo {
 }
 .home-content-container .home-content-img {
   width: 50%;
+}
+@media screen and (max-width: 800px) {
+  .home-content-container .home-content-img {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .home-content-container .home-content-img {
+    display: none;
+  }
 }
 .product-content-container {
   margin: 1% 0 1% 0;
