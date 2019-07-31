@@ -437,7 +437,7 @@ footer .navLogo {
 }
 @media screen and (max-width: 500px) {
   .contact-form .contact-form-container {
-    background-size: initial;
+    background-size: 100%;
   }
 }
 .contact-form .contact-form-container .contact-form-text {
