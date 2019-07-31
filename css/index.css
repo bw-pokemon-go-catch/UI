@@ -196,6 +196,9 @@ header .navText {
     display: none;
   }
 }
+header .navText .navLogo:hover {
+  animation-iteration-count: infinite;
+}
 header .navLinks {
   width: 100%;
 }
@@ -268,6 +271,9 @@ footer .navLogo {
   margin: 0;
   padding: 0;
 }
+footer .navLogo:hover {
+  animation-iteration-count: infinite;
+}
 .home-content-container {
   display: flex;
   width: 100%;
@@ -308,6 +314,10 @@ footer .navLogo {
   background-color: #FF0000;
   color: #FFFFFA;
   border-radius: 10%;
+}
+.home-content-container .home-content-text .btn button:hover {
+  background-color: #FFFFFA;
+  color: #FF0000;
 }
 .home-content-container .home-content-img {
   width: 50%;
@@ -405,6 +415,12 @@ footer .navLogo {
   text-decoration: none;
   color: #FFFFFA;
 }
+.about-content-container .btn button:hover {
+  background-color: #FFFFFA;
+}
+.about-content-container .btn button:hover a {
+  color: #FF0000;
+}
 .contact-form {
   height: 100%;
 }
@@ -481,4 +497,8 @@ footer .navLogo {
   background-color: #FF0000;
   color: #FFFFFA;
   border-radius: 10%;
+}
+.contact-form .contact-form-container .contact-form-text form button:hover {
+  background-color: #FFFFFA;
+  color: #FF0000;
 }
