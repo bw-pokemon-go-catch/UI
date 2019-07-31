@@ -1,9 +1,6 @@
 window.addEventListener("load", function(event){
 
-    var Style = window.getComputedStyle(document.querySelector('.contact-form-container')).getPropertyValue('background-image');
-    console.log(Style);
-
-    Style = "url(img/blueskymail.png)";
+    var Style = "url(img/blueskymail.png)";
 
     var element = document.getElementsByClassName("contact-form-container");
 
@@ -21,6 +18,11 @@ window.addEventListener("load", function(event){
 
         if (Style === "greetmail"){
             Style = "url(img/greetmail.png)";
+            element[0].style["background-image"] = Style;
+        }
+
+        if (Style === "lovelymail"){
+            Style = "url(img/lovelymail.png)";
             element[0].style["background-image"] = Style;
         }
 
