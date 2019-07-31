@@ -312,11 +312,16 @@ footer .navLogo:hover {
   height: 100%;
   border: 5px solid #101001;
   background-color: #FF0000;
-  color: #FFFFFA;
   border-radius: 10%;
+}
+.home-content-container .home-content-text .btn button a {
+  text-decoration: none;
+  color: #FFFFFA;
 }
 .home-content-container .home-content-text .btn button:hover {
   background-color: #FFFFFA;
+}
+.home-content-container .home-content-text .btn button:hover a {
   color: #FF0000;
 }
 .home-content-container .home-content-img {
