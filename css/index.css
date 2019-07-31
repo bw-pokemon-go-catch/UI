@@ -408,6 +408,21 @@ footer .navLogo {
 .contact-form {
   height: 100%;
 }
+.contact-form .selection {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 1%;
+}
+.contact-form .selection #mail {
+  line-height: 1.4;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #101001;
+  background-color: #FFFFF0;
+}
 .contact-form .contact-form-container {
   width: 100%;
   background-image: url("../img/blueskymail.png");
