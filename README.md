@@ -12,4 +12,7 @@ Worthymon accomplishes this task by taking in data from the user (Pokèmon name,
 ### Where can I find the app?
 You can visit my landing page (I hope you do, I worked hard on it!) where you can find links to the app, or you can simply find it here: https://worthymon.netlify.com/
 
+### How do I contact the team?
+On the landing page, under "About" is a button that will lead you to a contact form. Make sure to check it out!
+
 #### Thank you for visiting!
